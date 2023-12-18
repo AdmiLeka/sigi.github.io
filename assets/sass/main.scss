@@ -7,12 +7,6 @@
 @import 'fontawesome-all.min.css';
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic');
 
-/*
-	Spectral by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 // Breakpoints.
 
 	@include breakpoints((
@@ -27,9 +21,9 @@
 // Based on meyerweb.com/eric/tools/css/reset (v2.0 | 20110126 | License: public domain)
 
 	html, body, div, span, applet, object,
-	iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
+	iframe, h1, h2, h3, h4, h5, h6, p,
 	pre, a, abbr, acronym, address, big, cite,
-	code, del, dfn, em, img, ins, kbd, q, s, samp,
+	del, dfn, em, img, ins, kbd, q, s, samp,
 	small, strike, strong, sub, sup, tt, var, b,
 	u, i, center, dl, dt, dd, ol, ul, li, fieldset,
 	form, label, legend, table, caption, tbody,
@@ -56,16 +50,6 @@
 
 	ol, ul {
 		list-style:none;
-	}
-
-	blockquote,	q {
-		quotes: none;
-
-		&:before,
-		&:after {
-			content: '';
-			content: none;
-		}
 	}
 
 	table {
@@ -240,35 +224,11 @@
 		}
 	}
 
-	blockquote {
-		border-left: solid 4px _palette(border);
-		font-style: italic;
-		margin: 0 0 _size(element-margin) 0;
-		padding: 0.5em 0 0.5em 2em;
-	}
-
-	code {
-		background: _palette(border-bg);
-		border-radius: 3px;
-		font-family: _font(family-fixed);
-		font-size: 0.9em;
-		letter-spacing: 0;
-		margin: 0 0.25em;
-		padding: 0.25em 0.65em;
-	}
-
 	pre {
 		-webkit-overflow-scrolling: touch;
 		font-family: _font(family-fixed);
 		font-size: 0.9em;
 		margin: 0 0 _size(element-margin) 0;
-
-		code {
-			display: block;
-			line-height: 1.75em;
-			padding: 1em 1.5em;
-			overflow-x: auto;
-		}
 	}
 
 	.align-left {
@@ -1144,14 +1104,6 @@
 
 			hr {
 				border-color: _palette($p, border);
-			}
-
-			blockquote {
-				border-color: _palette($p, border);
-			}
-
-			code {
-				background: _palette($p, border-bg);
 			}
 
 		// Section/Article
